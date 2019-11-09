@@ -29,11 +29,7 @@ export default Component.extend({
   didInsertElement () {
     this._super (...arguments);
 
-    const options = this.options;
-
-    console.log (options);
-
-    this._player = videojs (this.element, options);
+    this._player = videojs (this.element, this.options);
   },
 
   willDestroyElement () {
