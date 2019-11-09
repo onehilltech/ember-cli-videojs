@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-videojs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ember-cli addonefor video.js",
   "keywords": [
     "ember-addon",
